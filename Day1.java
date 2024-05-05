@@ -6,6 +6,17 @@ public class Day1 {
 
     }
 
+   public String Problem_no3(String s ){
+        String ans = "";
+        for(int i = 0; i< s.length() -1; i++){
+            if(s.charAt(i) =='A'){
+                ans = ans + s.charAt(i);
+
+            }
+        }
+        return ans;
+   }
+
     public static String Problem_no2(){
         String s = "My name is Ankit";
         String ans = "";
