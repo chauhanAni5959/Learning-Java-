@@ -14,7 +14,7 @@ public class Day1 {
 
             }
         }
-        return ans;
+        return ans ;
    }
 
     public static String Problem_no2(){
