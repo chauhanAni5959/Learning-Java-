@@ -18,6 +18,20 @@ public class Day2 {
 
         System.out.println(obj.Binary_Search(nums, 3));
 
+        System.out.println(obj.Linear_Search(nums, 4));
+
+    }
+
+    private int Linear_Search(int [] nums , int target){
+        for(int i = 0 ; i <= nums.length - 1; i++)
+        {
+            if(nums[i] == target){
+                return i;
+            }
+
+        }
+        return -1;
+
     }
 
     private int  Binary_Search(int [] nums, int target){
