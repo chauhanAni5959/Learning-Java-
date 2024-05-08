@@ -4,10 +4,12 @@ public class Day2 {
 
     public static void main(String[] args) {
         Day2 obj = new Day2();
+        obj.Problem_no_1("ankit", "ankit");
+
         char [] s1 = {'a', 'n', 'k', 'i' , 't'};
         char [] s2 = {'n', 'i' , 'a', 'k', 'o'};
-        if(Problem_no_2(s1, s2)){
-            System.out.println("Yes both String are anagram!");
+        if(obj.Problem_no_2(s1, s2)){
+            System.out.println("Yes both String are anagram!  ");
         }
         else{
             System.out.println("No both String are not anagram!");
@@ -15,7 +17,7 @@ public class Day2 {
 
     }
 
-    private static  boolean Problem_no_2(char [] s1 , char[] s2){
+    private   boolean Problem_no_2(char [] s1 , char[] s2){
         if(s1.length !=s2.length){
             return false;
         }
